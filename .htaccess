@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /quanlyduan
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+
+RewriteRule ^(.*)$ $0.php [L]
+
+

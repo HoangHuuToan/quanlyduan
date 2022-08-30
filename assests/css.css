@@ -1,0 +1,73 @@
+.header
+{   
+    display: flex;
+    width: 100%;
+    background-color: white;
+    color: black;
+    justify-content: center;
+}
+.header a
+{
+    text-decoration: none;
+    color: black;
+}
+.list_menu
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 10px;
+}
+.menu
+{
+    padding: 10px;
+    color: gold;
+    border: solid white 1px;
+    border-radius: 2px;
+}
+.menu:hover
+{
+    cursor: pointer;
+}
+.menu-active
+{
+    background-color: goldenrod;    
+    color: black;
+}
+.list_products
+{   
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.product
+{
+    width: 20%;
+}
+.product_img
+{   
+    padding-top: 55%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.product_name
+{
+    color: black;
+}
+
+.task_search
+{
+    display: block;
+    margin: auto;
+}
+.search_bar
+{
+    width: 500px;
+    height: 30px;
+    font-size: 15px;
+}
+.btn-search
+{
+    width: 80px;
+    height: 30px;
+}
