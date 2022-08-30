@@ -66,7 +66,7 @@
 
 <?php
     echo '<h1>Connect Database</h1>';
-    require '../vendor/autoload.php';
+    require './vendor/autoload.php';
     //connect_DB
     use Connect_DB\Drive\DB_Drive as DB_Drive;
     $DB = new DB_Drive();
